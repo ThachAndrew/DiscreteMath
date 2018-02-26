@@ -1,3 +1,6 @@
+#prints logical truth tables
+#input format example: p q * r t * = 
+#possible improvements: allow for bigger proposition names
 from sys import stdin
 import re
 import itertools
@@ -60,6 +63,7 @@ for row in itertools.product((False, True), repeat = len(propositions)):
     
   
   
+
 
   #print('')  #patch: prints newline for some reason
 
